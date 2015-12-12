@@ -10,7 +10,6 @@
 		CA1603AF1C1B4D3D00022C7F /* StarSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1603AE1C1B4D3D00022C7F /* StarSaverView.h */; };
 		CA1603B11C1B4D3D00022C7F /* StarSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1603B01C1B4D3D00022C7F /* StarSaverView.m */; };
 		CA1603BA1C1B500100022C7F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CA1603B91C1B500100022C7F /* index.html */; };
-		CA1603BC1C1BB24000022C7F /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = CA1603BB1C1BB24000022C7F /* test.html */; };
 		CA9373491C1C6507000FB77B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9373481C1C6507000FB77B /* AppDelegate.m */; };
 		CA93734C1C1C6507000FB77B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA93734B1C1C6507000FB77B /* main.m */; };
 		CA93734E1C1C6507000FB77B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA93734D1C1C6507000FB77B /* Assets.xcassets */; };
@@ -18,6 +17,7 @@
 		CA93735C1C1C6507000FB77B /* StarSaverDebugAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA93735B1C1C6507000FB77B /* StarSaverDebugAppTests.m */; };
 		CA9373671C1C6507000FB77B /* StarSaverDebugAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9373661C1C6507000FB77B /* StarSaverDebugAppUITests.m */; };
 		CA9373721C1C66B8000FB77B /* StarSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1603B01C1B4D3D00022C7F /* StarSaverView.m */; };
+		CA9373731C1C7114000FB77B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CA1603B91C1B500100022C7F /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -308,7 +308,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA1603BC1C1BB24000022C7F /* test.html in Resources */,
 				CA1603BA1C1B500100022C7F /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA9373731C1C7114000FB77B /* index.html in Resources */,
 				CA93734E1C1C6507000FB77B /* Assets.xcassets in Resources */,
 				CA9373511C1C6507000FB77B /* MainMenu.xib in Resources */,
 			);
