@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CA1603A81C1B4D3D00022C7F"
-               BuildableName = "StarSaver.saver"
-               BlueprintName = "StarSaver"
+               BlueprintIdentifier = "CA9373441C1C6507000FB77B"
+               BuildableName = "StarSaverDebugApp.app"
+               BlueprintName = "StarSaverDebugApp"
                ReferencedContainer = "container:StarSaver.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CA9373561C1C6507000FB77B"
+               BuildableName = "StarSaverDebugAppTests.xctest"
+               BlueprintName = "StarSaverDebugAppTests"
+               ReferencedContainer = "container:StarSaver.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CA9373611C1C6507000FB77B"
+               BuildableName = "StarSaverDebugAppUITests.xctest"
+               BlueprintName = "StarSaverDebugAppUITests"
+               ReferencedContainer = "container:StarSaver.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CA9373441C1C6507000FB77B"
+            BuildableName = "StarSaverDebugApp.app"
+            BlueprintName = "StarSaverDebugApp"
+            ReferencedContainer = "container:StarSaver.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CA1603A81C1B4D3D00022C7F"
-            BuildableName = "StarSaver.saver"
-            BlueprintName = "StarSaver"
+            BlueprintIdentifier = "CA9373441C1C6507000FB77B"
+            BuildableName = "StarSaverDebugApp.app"
+            BlueprintName = "StarSaverDebugApp"
             ReferencedContainer = "container:StarSaver.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CA1603A81C1B4D3D00022C7F"
-            BuildableName = "StarSaver.saver"
-            BlueprintName = "StarSaver"
+            BlueprintIdentifier = "CA9373441C1C6507000FB77B"
+            BuildableName = "StarSaverDebugApp.app"
+            BlueprintName = "StarSaverDebugApp"
             ReferencedContainer = "container:StarSaver.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

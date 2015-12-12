@@ -7,7 +7,8 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import <WebKit/WebKit.h>
 
-@interface StarSaverView : ScreenSaverView
+@interface StarSaverView : ScreenSaverView <WebFrameLoadDelegate>
 
 @end

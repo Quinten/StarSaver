@@ -9,17 +9,79 @@
 /* Begin PBXBuildFile section */
 		CA1603AF1C1B4D3D00022C7F /* StarSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1603AE1C1B4D3D00022C7F /* StarSaverView.h */; };
 		CA1603B11C1B4D3D00022C7F /* StarSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1603B01C1B4D3D00022C7F /* StarSaverView.m */; };
+		CA1603BA1C1B500100022C7F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CA1603B91C1B500100022C7F /* index.html */; };
+		CA1603BC1C1BB24000022C7F /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = CA1603BB1C1BB24000022C7F /* test.html */; };
+		CA9373491C1C6507000FB77B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9373481C1C6507000FB77B /* AppDelegate.m */; };
+		CA93734C1C1C6507000FB77B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA93734B1C1C6507000FB77B /* main.m */; };
+		CA93734E1C1C6507000FB77B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA93734D1C1C6507000FB77B /* Assets.xcassets */; };
+		CA9373511C1C6507000FB77B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA93734F1C1C6507000FB77B /* MainMenu.xib */; };
+		CA93735C1C1C6507000FB77B /* StarSaverDebugAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA93735B1C1C6507000FB77B /* StarSaverDebugAppTests.m */; };
+		CA9373671C1C6507000FB77B /* StarSaverDebugAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9373661C1C6507000FB77B /* StarSaverDebugAppUITests.m */; };
+		CA9373721C1C66B8000FB77B /* StarSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1603B01C1B4D3D00022C7F /* StarSaverView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA9373581C1C6507000FB77B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1603A01C1B4D3D00022C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9373441C1C6507000FB77B;
+			remoteInfo = StarSaverDebugApp;
+		};
+		CA9373631C1C6507000FB77B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1603A01C1B4D3D00022C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9373441C1C6507000FB77B;
+			remoteInfo = StarSaverDebugApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CA1603A91C1B4D3D00022C7F /* StarSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1603AD1C1B4D3D00022C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA1603AE1C1B4D3D00022C7F /* StarSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarSaverView.h; sourceTree = "<group>"; };
 		CA1603B01C1B4D3D00022C7F /* StarSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarSaverView.m; sourceTree = "<group>"; };
+		CA1603B91C1B500100022C7F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		CA1603BB1C1BB24000022C7F /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		CA9373451C1C6507000FB77B /* StarSaverDebugApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarSaverDebugApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9373471C1C6507000FB77B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA9373481C1C6507000FB77B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA93734B1C1C6507000FB77B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA93734D1C1C6507000FB77B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA9373501C1C6507000FB77B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CA9373521C1C6507000FB77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9373571C1C6507000FB77B /* StarSaverDebugAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarSaverDebugAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA93735B1C1C6507000FB77B /* StarSaverDebugAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarSaverDebugAppTests.m; sourceTree = "<group>"; };
+		CA93735D1C1C6507000FB77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9373621C1C6507000FB77B /* StarSaverDebugAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarSaverDebugAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9373661C1C6507000FB77B /* StarSaverDebugAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarSaverDebugAppUITests.m; sourceTree = "<group>"; };
+		CA9373681C1C6507000FB77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CA1603A51C1B4D3D00022C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9373421C1C6507000FB77B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9373541C1C6507000FB77B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA93735F1C1C6507000FB77B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,7 +94,12 @@
 		CA16039F1C1B4D3D00022C7F = {
 			isa = PBXGroup;
 			children = (
+				CA1603BB1C1BB24000022C7F /* test.html */,
+				CA1603B91C1B500100022C7F /* index.html */,
 				CA1603AB1C1B4D3D00022C7F /* StarSaver */,
+				CA9373461C1C6507000FB77B /* StarSaverDebugApp */,
+				CA93735A1C1C6507000FB77B /* StarSaverDebugAppTests */,
+				CA9373651C1C6507000FB77B /* StarSaverDebugAppUITests */,
 				CA1603AA1C1B4D3D00022C7F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				CA1603A91C1B4D3D00022C7F /* StarSaver.saver */,
+				CA9373451C1C6507000FB77B /* StarSaverDebugApp.app */,
+				CA9373571C1C6507000FB77B /* StarSaverDebugAppTests.xctest */,
+				CA9373621C1C6507000FB77B /* StarSaverDebugAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +131,45 @@
 				CA1603AD1C1B4D3D00022C7F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA9373461C1C6507000FB77B /* StarSaverDebugApp */ = {
+			isa = PBXGroup;
+			children = (
+				CA9373471C1C6507000FB77B /* AppDelegate.h */,
+				CA9373481C1C6507000FB77B /* AppDelegate.m */,
+				CA93734D1C1C6507000FB77B /* Assets.xcassets */,
+				CA93734F1C1C6507000FB77B /* MainMenu.xib */,
+				CA9373521C1C6507000FB77B /* Info.plist */,
+				CA93734A1C1C6507000FB77B /* Supporting Files */,
+			);
+			path = StarSaverDebugApp;
+			sourceTree = "<group>";
+		};
+		CA93734A1C1C6507000FB77B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA93734B1C1C6507000FB77B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA93735A1C1C6507000FB77B /* StarSaverDebugAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA93735B1C1C6507000FB77B /* StarSaverDebugAppTests.m */,
+				CA93735D1C1C6507000FB77B /* Info.plist */,
+			);
+			path = StarSaverDebugAppTests;
+			sourceTree = "<group>";
+		};
+		CA9373651C1C6507000FB77B /* StarSaverDebugAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA9373661C1C6507000FB77B /* StarSaverDebugAppUITests.m */,
+				CA9373681C1C6507000FB77B /* Info.plist */,
+			);
+			path = StarSaverDebugAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,17 +204,81 @@
 			productReference = CA1603A91C1B4D3D00022C7F /* StarSaver.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
+		CA9373441C1C6507000FB77B /* StarSaverDebugApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9373691C1C6507000FB77B /* Build configuration list for PBXNativeTarget "StarSaverDebugApp" */;
+			buildPhases = (
+				CA9373411C1C6507000FB77B /* Sources */,
+				CA9373421C1C6507000FB77B /* Frameworks */,
+				CA9373431C1C6507000FB77B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarSaverDebugApp;
+			productName = StarSaverDebugApp;
+			productReference = CA9373451C1C6507000FB77B /* StarSaverDebugApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA9373561C1C6507000FB77B /* StarSaverDebugAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA93736C1C1C6507000FB77B /* Build configuration list for PBXNativeTarget "StarSaverDebugAppTests" */;
+			buildPhases = (
+				CA9373531C1C6507000FB77B /* Sources */,
+				CA9373541C1C6507000FB77B /* Frameworks */,
+				CA9373551C1C6507000FB77B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA9373591C1C6507000FB77B /* PBXTargetDependency */,
+			);
+			name = StarSaverDebugAppTests;
+			productName = StarSaverDebugAppTests;
+			productReference = CA9373571C1C6507000FB77B /* StarSaverDebugAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA9373611C1C6507000FB77B /* StarSaverDebugAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA93736F1C1C6507000FB77B /* Build configuration list for PBXNativeTarget "StarSaverDebugAppUITests" */;
+			buildPhases = (
+				CA93735E1C1C6507000FB77B /* Sources */,
+				CA93735F1C1C6507000FB77B /* Frameworks */,
+				CA9373601C1C6507000FB77B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA9373641C1C6507000FB77B /* PBXTargetDependency */,
+			);
+			name = StarSaverDebugAppUITests;
+			productName = StarSaverDebugAppUITests;
+			productReference = CA9373621C1C6507000FB77B /* StarSaverDebugAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		CA1603A01C1B4D3D00022C7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Quinten Clause";
 				TargetAttributes = {
 					CA1603A81C1B4D3D00022C7F = {
 						CreatedOnToolsVersion = 6.1.1;
+					};
+					CA9373441C1C6507000FB77B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CA9373561C1C6507000FB77B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CA9373441C1C6507000FB77B;
+					};
+					CA9373611C1C6507000FB77B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CA9373441C1C6507000FB77B;
 					};
 				};
 			};
@@ -115,6 +288,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CA16039F1C1B4D3D00022C7F;
 			productRefGroup = CA1603AA1C1B4D3D00022C7F /* Products */;
@@ -122,12 +296,40 @@
 			projectRoot = "";
 			targets = (
 				CA1603A81C1B4D3D00022C7F /* StarSaver */,
+				CA9373441C1C6507000FB77B /* StarSaverDebugApp */,
+				CA9373561C1C6507000FB77B /* StarSaverDebugAppTests */,
+				CA9373611C1C6507000FB77B /* StarSaverDebugAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CA1603A71C1B4D3D00022C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1603BC1C1BB24000022C7F /* test.html in Resources */,
+				CA1603BA1C1B500100022C7F /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9373431C1C6507000FB77B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA93734E1C1C6507000FB77B /* Assets.xcassets in Resources */,
+				CA9373511C1C6507000FB77B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9373551C1C6507000FB77B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9373601C1C6507000FB77B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -145,7 +347,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA9373411C1C6507000FB77B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9373721C1C66B8000FB77B /* StarSaverView.m in Sources */,
+				CA93734C1C1C6507000FB77B /* main.m in Sources */,
+				CA9373491C1C6507000FB77B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9373531C1C6507000FB77B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA93735C1C1C6507000FB77B /* StarSaverDebugAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA93735E1C1C6507000FB77B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9373671C1C6507000FB77B /* StarSaverDebugAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA9373591C1C6507000FB77B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9373441C1C6507000FB77B /* StarSaverDebugApp */;
+			targetProxy = CA9373581C1C6507000FB77B /* PBXContainerItemProxy */;
+		};
+		CA9373641C1C6507000FB77B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9373441C1C6507000FB77B /* StarSaverDebugApp */;
+			targetProxy = CA9373631C1C6507000FB77B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA93734F1C1C6507000FB77B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA9373501C1C6507000FB77B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CA1603B21C1B4D3D00022C7F /* Debug */ = {
@@ -167,6 +419,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -228,6 +481,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = StarSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "be.webwolk.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
@@ -239,8 +494,104 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = StarSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "be.webwolk.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		CA93736A1C1C6507000FB77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = StarSaverDebugApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.webwolk.StarSaverDebugApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA93736B1C1C6507000FB77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = StarSaverDebugApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.webwolk.StarSaverDebugApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA93736D1C1C6507000FB77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = StarSaverDebugAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.webwolk.StarSaverDebugAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarSaverDebugApp.app/Contents/MacOS/StarSaverDebugApp";
+			};
+			name = Debug;
+		};
+		CA93736E1C1C6507000FB77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = StarSaverDebugAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.webwolk.StarSaverDebugAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarSaverDebugApp.app/Contents/MacOS/StarSaverDebugApp";
+			};
+			name = Release;
+		};
+		CA9373701C1C6507000FB77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = StarSaverDebugAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.webwolk.StarSaverDebugAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StarSaverDebugApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CA9373711C1C6507000FB77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = StarSaverDebugAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.webwolk.StarSaverDebugAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StarSaverDebugApp;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
@@ -261,6 +612,31 @@
 			buildConfigurations = (
 				CA1603B51C1B4D3D00022C7F /* Debug */,
 				CA1603B61C1B4D3D00022C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9373691C1C6507000FB77B /* Build configuration list for PBXNativeTarget "StarSaverDebugApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA93736A1C1C6507000FB77B /* Debug */,
+				CA93736B1C1C6507000FB77B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA93736C1C1C6507000FB77B /* Build configuration list for PBXNativeTarget "StarSaverDebugAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA93736D1C1C6507000FB77B /* Debug */,
+				CA93736E1C1C6507000FB77B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA93736F1C1C6507000FB77B /* Build configuration list for PBXNativeTarget "StarSaverDebugAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9373701C1C6507000FB77B /* Debug */,
+				CA9373711C1C6507000FB77B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
