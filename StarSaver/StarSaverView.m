@@ -35,4 +35,28 @@
     NSLog(@"%@ error=%@", NSStringFromSelector(_cmd), error);
 }
 
+#pragma mark Input Overrides
+
+// Some methods that captures all the input events to prevent the webview from gaining focus.
+
+- (NSView *)hitTest:(NSPoint)aPoint {
+    return self;
+}
+
+- (void)keyDown:(NSEvent *)theEvent {
+    return;
+}
+
+- (void)keyUp:(NSEvent *)theEvent {
+    return;
+}
+
+- (BOOL)acceptsFirstResponder {
+    return YES;
+}
+
+- (BOOL)resignFirstResponder {
+    return NO;
+}
+
 @end
