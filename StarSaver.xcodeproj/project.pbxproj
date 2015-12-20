@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		CA1603AF1C1B4D3D00022C7F /* StarSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1603AE1C1B4D3D00022C7F /* StarSaverView.h */; };
 		CA1603B11C1B4D3D00022C7F /* StarSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1603B01C1B4D3D00022C7F /* StarSaverView.m */; };
-		CA1603BA1C1B500100022C7F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CA1603B91C1B500100022C7F /* index.html */; };
+		CA462A3A1C26E06900A05AA7 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CA462A381C26E06900A05AA7 /* index.html */; };
+		CA462A3B1C26E06900A05AA7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CA462A391C26E06900A05AA7 /* README.md */; };
+		CA462A3C1C26E1F600A05AA7 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CA462A381C26E06900A05AA7 /* index.html */; };
 		CA9373491C1C6507000FB77B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9373481C1C6507000FB77B /* AppDelegate.m */; };
 		CA93734C1C1C6507000FB77B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA93734B1C1C6507000FB77B /* main.m */; };
 		CA93734E1C1C6507000FB77B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA93734D1C1C6507000FB77B /* Assets.xcassets */; };
@@ -17,7 +19,6 @@
 		CA93735C1C1C6507000FB77B /* StarSaverDebugAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA93735B1C1C6507000FB77B /* StarSaverDebugAppTests.m */; };
 		CA9373671C1C6507000FB77B /* StarSaverDebugAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9373661C1C6507000FB77B /* StarSaverDebugAppUITests.m */; };
 		CA9373721C1C66B8000FB77B /* StarSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1603B01C1B4D3D00022C7F /* StarSaverView.m */; };
-		CA9373731C1C7114000FB77B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CA1603B91C1B500100022C7F /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +43,8 @@
 		CA1603AD1C1B4D3D00022C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA1603AE1C1B4D3D00022C7F /* StarSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarSaverView.h; sourceTree = "<group>"; };
 		CA1603B01C1B4D3D00022C7F /* StarSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarSaverView.m; sourceTree = "<group>"; };
-		CA1603B91C1B500100022C7F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		CA1603BB1C1BB24000022C7F /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		CA462A381C26E06900A05AA7 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		CA462A391C26E06900A05AA7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CA9373451C1C6507000FB77B /* StarSaverDebugApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarSaverDebugApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9373471C1C6507000FB77B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA9373481C1C6507000FB77B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -94,8 +95,7 @@
 		CA16039F1C1B4D3D00022C7F = {
 			isa = PBXGroup;
 			children = (
-				CA1603BB1C1BB24000022C7F /* test.html */,
-				CA1603B91C1B500100022C7F /* index.html */,
+				CA462A371C26E06900A05AA7 /* starfield */,
 				CA1603AB1C1B4D3D00022C7F /* StarSaver */,
 				CA9373461C1C6507000FB77B /* StarSaverDebugApp */,
 				CA93735A1C1C6507000FB77B /* StarSaverDebugAppTests */,
@@ -131,6 +131,15 @@
 				CA1603AD1C1B4D3D00022C7F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA462A371C26E06900A05AA7 /* starfield */ = {
+			isa = PBXGroup;
+			children = (
+				CA462A381C26E06900A05AA7 /* index.html */,
+				CA462A391C26E06900A05AA7 /* README.md */,
+			);
+			path = starfield;
 			sourceTree = "<group>";
 		};
 		CA9373461C1C6507000FB77B /* StarSaverDebugApp */ = {
@@ -308,7 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA1603BA1C1B500100022C7F /* index.html in Resources */,
+				CA462A3A1C26E06900A05AA7 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA9373731C1C7114000FB77B /* index.html in Resources */,
+				CA462A3C1C26E1F600A05AA7 /* index.html in Resources */,
 				CA93734E1C1C6507000FB77B /* Assets.xcassets in Resources */,
 				CA9373511C1C6507000FB77B /* MainMenu.xib in Resources */,
 			);
@@ -343,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA462A3B1C26E06900A05AA7 /* README.md in Sources */,
 				CA1603B11C1B4D3D00022C7F /* StarSaverView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -623,6 +633,7 @@
 				CA93736B1C1C6507000FB77B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA93736C1C1C6507000FB77B /* Build configuration list for PBXNativeTarget "StarSaverDebugAppTests" */ = {
 			isa = XCConfigurationList;
@@ -631,6 +642,7 @@
 				CA93736E1C1C6507000FB77B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA93736F1C1C6507000FB77B /* Build configuration list for PBXNativeTarget "StarSaverDebugAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -639,6 +651,7 @@
 				CA9373711C1C6507000FB77B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,3 @@
+[submodule "starfield"]
+	path = starfield
+	url = git@github.com:Quinten/starfield.git
