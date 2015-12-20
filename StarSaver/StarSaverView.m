@@ -17,7 +17,7 @@
     
     WebView* webView = [[WebView alloc] initWithFrame:NSMakeRect(0, 0, frame.size.width, frame.size.height)];
     webView.frameLoadDelegate = self;
-    webView.drawsBackground = NO; // Avoids a "white flash" just before the index.html file has loaded
+    webView.drawsBackground = NO; // Disables the white flash
     [webView.mainFrame loadRequest:[NSURLRequest requestWithURL:indexHTMLDocumentURL cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:30.0]];
     [self addSubview:webView];
     
@@ -26,8 +26,8 @@
 
 #pragma mark - ScreenSaverView
 
-- (void)animateOneFrame { [self stopAnimation]; } // We don't need animation callbacks
-- (BOOL)hasConfigureSheet { return NO; } // Nothing to configure
+- (void)animateOneFrame { [self stopAnimation]; } // Animation is in the index.html itself
+- (BOOL)hasConfigureSheet { return NO; } // There is no configuration
 
 #pragma mark - WebFrameLoadDelegate
 
