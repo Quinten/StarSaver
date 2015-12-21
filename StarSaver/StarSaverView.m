@@ -43,6 +43,7 @@
     return self;
 }
 
+/*
 - (void)keyDown:(NSEvent *)theEvent {
     return;
 }
@@ -50,6 +51,7 @@
 - (void)keyUp:(NSEvent *)theEvent {
     return;
 }
+*/
 
 - (BOOL)acceptsFirstResponder {
     return YES;
